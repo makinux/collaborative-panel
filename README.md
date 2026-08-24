@@ -18,7 +18,7 @@ So "asking several models for ideas" is worth nothing as such. Three engineered 
 
 ## Architecture
 
-![Architecture: the facilitator distributes briefs with mutually different lenses; panelists cross-pollinate and return ideas and builds (labels in Japanese)](assets/architecture-ja.png)
+![Architecture: the facilitator distributes briefs with mutually different lenses; panelists cross-pollinate and return ideas and builds](assets/architecture.png)
 
 Same skeleton as adversarial-panel — what changes is what gets distributed and what gets demanded back. The facilitator (the main session) writes a self-contained brief and assigns each panelist 1–2 **method lenses**, all different: analogy transfer, inversion, stakeholder rotation, asset recombination, constraint shifting, scale shifting. Lenses, not model weights, are what decorrelate the ideation.
 
@@ -34,7 +34,7 @@ Default: **2 panelists × 2 rounds** — one round fewer than the adversarial de
 
 ## Protocol
 
-![Protocol: Round 0 framing → Round 1 independent divergence through a validation gate → Round 1.5 facilitator scan → Round 2 cross-pollination → synthesis (labels in Japanese)](assets/protocol-ja.png)
+![Protocol: Round 0 framing → Round 1 independent divergence through a validation gate → Round 1.5 facilitator scan → Round 2 cross-pollination → synthesis](assets/protocol.png)
 
 White = facilitator's job, purple = panelists' job.
 

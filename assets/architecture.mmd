@@ -1,0 +1,16 @@
+flowchart LR
+    F["<b>Facilitator</b><br/>Main session<br/><i>frames, assigns lenses, synthesizes</i>"]
+    A["<b>Panelist A</b><br/>Claude family (Agent tool)<br/><i>On-demand</i>"]
+    B["<b>Panelist B</b><br/>Different family (external CLI)<br/><i>On-demand</i>"]
+
+    F -->|"Round loop"| F
+    F ==>|"Brief + Lens A"| A
+    F ==>|"Brief + Lens B"| B
+    A -.->|"Ideas & builds"| F
+    B -.->|"Ideas & builds"| F
+    A <-->|"Cross-pollination"| B
+
+    classDef facilitator fill:#FFFFFF,stroke:#2B2833,stroke-width:1.5px,color:#1E1C26
+    classDef panelist fill:#6C5B9E,stroke:#3E3462,stroke-width:2px,stroke-dasharray:7 5,color:#FFFFFF
+    class F facilitator
+    class A,B panelist
